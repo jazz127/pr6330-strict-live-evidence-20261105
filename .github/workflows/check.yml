@@ -4,4 +4,5 @@ jobs:
   pass:
     runs-on: ubuntu-latest
     steps:
+      - run: sleep 75
       - run: echo "strict branch evidence check passed"
